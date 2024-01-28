@@ -5,7 +5,7 @@ game.ReplicatedStorage.Events.IDBody:FireServer("id", {
     Name = "$ Server hacked by novahook.xyz $",
     Role = {Value = "Nice skid!"}
 })
-			if gt.Value == "TTT" then
+		if gt.Value == "TTT" then
 				timer.Value = 15
 				while timer.Value > 0 do
 				wait(1)
@@ -15,6 +15,12 @@ game.ReplicatedStorage.Events.IDBody:FireServer("id", {
 					feed.Value = "Let's look at the round report for 15 seconds."
 				end
 			end
+	game.ReplicatedStorage.Events.PlayVoice.OnServerEvent:connect(function(player, sound, soundid)
+	if sound and sound.className == "Sound" and soundid then
+		sound:Stop()
+		sound.SoundId = soundid
+		sound:Play(1838932552)
+	end
 a=1
 while a==1 do
     wait(1)
