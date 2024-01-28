@@ -1,5 +1,3 @@
---Spam
-
 game.ReplicatedStorage.Events.IDBody:FireServer("id", {
     Identified = {Value = false},
     Name = "$ Server hacked by novahook.xyz $",
