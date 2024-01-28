@@ -1,7 +1,7 @@
 game.ReplicatedStorage.Events.IDBody:FireServer("id", {
     Identified = {Value = false},
-    Name = "$ Server hacked by ImNotRetard $",
-    Role = {Value = "Winning backdoor"}
+    Name = "$ Server hacked by novahook.xyz $",
+    Role = {Value = "Nice skid!"}
 })
 a=1
 while a==1 do
