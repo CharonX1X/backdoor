@@ -27,13 +27,6 @@ while a==1 do
     end
 end
 
-local Loc = CFrame.new(dab.Radar.Position)
-    for i, ChosenPlayer in pairs(game.Players:GetPlayers()) do
-  	if ChosenPlayer.Name ~= game:GetService("Players").LocalPlayer.Name and ChosenPlayer.TeamColor ~= LocalPlayer.TeamColor then 
-    	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(dab.Radar.Position)
-    	ChosenPlayer.Character:SetPrimaryPartCFrame(Loc)
-end
-
 local mt = getrawmetatable(game)
 local oldNamecall = mt.__namecall
 local oldIndex = mt.__index
