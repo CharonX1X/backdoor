@@ -1,9 +1,8 @@
 game.ReplicatedStorage.Events.IDBody:FireServer("id", {
     Identified = {Value = false},
-    Name = "$ Server hacked by novahook.xyz $",
-    Role = {Value = "Nice skid!"}
+    Name = "$ Server hacked by ImNotRetard $",
+    Role = {Value = "Winning backdoor"}
 })
-
 a=1
 while a==1 do
     wait(1)
@@ -21,9 +20,6 @@ while a==1 do
         if v:FindFirstChild("Spread") then
             game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.Spread})
         end
-	game.RunService.Heartbeat:Connect(function()
-   		game.ReplicatedStorage.Events.ThrowGrenade:FireServer(game.ReplicatedStorage.Weapons["Incendiary Grenade"].Model, nil, 25, 35, Vector3.new(0, 0, 0), "", "")
-	end)
         if v:FindFirstChild("Recoil") then
             game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.Recoil.AngleX})
             game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.Recoil.AngleY})
