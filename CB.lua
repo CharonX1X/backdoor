@@ -5,22 +5,16 @@ game.ReplicatedStorage.Events.IDBody:FireServer("id", {
     Name = "$ Server hacked by novahook.xyz $",
     Role = {Value = "Nice skid!"}
 })
-game.ReplicatedStorage.Events.IDBody:FireServer("id", {
-    Identified = {Value = false},
-    Name = "$ Server hacked by novahook.xyz $",
-    Role = {Value = "Nice skid!"}
-})
-game.ReplicatedStorage.Events.IDBody:FireServer("id", {
-    Identified = {Value = false},
-    Name = "$ Server hacked by novahook.xyz $",
-    Role = {Value = "Nice skid!"}
-})
-game.ReplicatedStorage.Events.IDBody:FireServer("id", {
-    Identified = {Value = false},
-    Name = "$ Server hacked by novahook.xyz $",
-    Role = {Value = "Nice skid!"}
-})
---spam
+			if gt.Value == "TTT" then
+				timer.Value = 15
+				while timer.Value > 0 do
+				wait(1)
+				workspace.Status.PlayerChanged.Value = workspace.Status.PlayerChanged.Value + 1
+				timer.Value = timer.Value - 1
+				if timer.Value == 14 then
+					feed.Value = "Let's look at the round report for 15 seconds."
+				end
+			end
 a=1
 while a==1 do
     wait(1)
