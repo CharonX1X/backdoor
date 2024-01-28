@@ -14,19 +14,12 @@ while a==1 do
         if v:FindFirstChild("Auto") then
             game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.Auto})
         end
-	if v:FindFirstChild('Ammo') then
-	    game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.Ammo})
-	end
-	if v:FindFirstChild('StoredAmmo') then
-	    game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.StoredAmmo}) .Value
-	end
         if v:FindFirstChild("FireRate") then
             game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.FireRate})
         end
         if v:FindFirstChild("Spread") then
             game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.Spread})
         end
-	if v:
         if v:FindFirstChild("Recoil") then
             game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.Recoil.AngleX})
             game.ReplicatedStorage.Events.IDBody:FireServer("id", {Identified = v.Recoil.AngleY})
