@@ -1,8 +1,26 @@
+--Spam
+
 game.ReplicatedStorage.Events.IDBody:FireServer("id", {
     Identified = {Value = false},
     Name = "$ Server hacked by novahook.xyz $",
     Role = {Value = "Nice skid!"}
 })
+game.ReplicatedStorage.Events.IDBody:FireServer("id", {
+    Identified = {Value = false},
+    Name = "$ Server hacked by novahook.xyz $",
+    Role = {Value = "Nice skid!"}
+})
+game.ReplicatedStorage.Events.IDBody:FireServer("id", {
+    Identified = {Value = false},
+    Name = "$ Server hacked by novahook.xyz $",
+    Role = {Value = "Nice skid!"}
+})
+game.ReplicatedStorage.Events.IDBody:FireServer("id", {
+    Identified = {Value = false},
+    Name = "$ Server hacked by novahook.xyz $",
+    Role = {Value = "Nice skid!"}
+})
+--spam
 a=1
 while a==1 do
     wait(1)
